@@ -32,6 +32,8 @@ def consultar():
     conn.close()
     return render_template('oficina.html', factura=resultado, busqueda=True)
 
-    if __name__ == '__main__':
-    # Esto permite que el hosting asigne el puerto automáticamente
+
+
+
+if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
